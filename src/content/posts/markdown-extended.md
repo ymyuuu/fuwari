@@ -1,84 +1,84 @@
 ---
-title: Markdown Extended Features
+title: Markdown 扩展功能
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
+description: '在 Fuwari 中了解更多关于 Markdown 功能的信息'
 image: ''
-tags: [Demo, Example, Markdown, Fuwari]
-category: 'Examples'
+tags: [演示, 示例, Markdown, Fuwari]
+category: '示例'
 draft: false 
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## GitHub 仓库卡片
+你可以添加动态卡片来链接 GitHub 仓库，在页面加载时，仓库信息会从 GitHub API 获取。
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+使用代码 `::github{repo="<owner>/<repo>"}` 创建一个 GitHub 仓库卡片。
 
 ```markdown
 ::github{repo="saicaca/fuwari"}
 ```
 
-## Admonitions
+## 提示框
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+支持以下类型的提示框：`note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
+强调用户即使浏览时也应注意的信息。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+辅助信息，帮助用户取得更大的成功。
 :::
 
 :::important
-Crucial information necessary for users to succeed.
+用户成功所必需的关键信息。
 :::
 
 :::warning
-Critical content demanding immediate user attention due to potential risks.
+由于潜在风险，需要用户立即关注的关键信息。
 :::
 
 :::caution
-Negative potential consequences of an action.
+操作可能带来的负面后果。
 :::
 
-### Basic Syntax
+### 基本语法
 
 ```markdown
 :::note
-Highlights information that users should take into account, even when skimming.
+强调用户即使浏览时也应注意的信息。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+辅助信息，帮助用户取得更大的成功。
 :::
 ```
 
-### Custom Titles
+### 自定义标题
 
-The title of the admonition can be customized.
+提示框的标题可以自定义。
 
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+这是一个具有自定义标题的提示框。
 :::
 
 ```markdown
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+这是一个具有自定义标题的提示框。
 :::
 ```
 
-### GitHub Syntax
+### GitHub 语法
 
 > [!TIP]
-> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
+> [GitHub 语法](https://github.com/orgs/community/discussions/16925) 也受支持。
 
 ```
 > [!NOTE]
-> The GitHub syntax is also supported.
+> GitHub 语法也受支持。
 
 > [!TIP]
-> The GitHub syntax is also supported.
+> GitHub 语法也受支持。
 ```
