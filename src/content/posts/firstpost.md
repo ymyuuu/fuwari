@@ -2,7 +2,6 @@
 title: 我的第一篇博客
 published: 2025-02-27
 description: 这是我使用 Astro 构建博客的第一篇文章，记录我的探索与感悟，欢迎大家一同前行。
-image: ./cover.jpg
 tags: [初始, 博客]
 category: 前端
 draft: false
